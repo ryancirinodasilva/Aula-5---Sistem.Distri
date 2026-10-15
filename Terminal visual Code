@@ -1,3 +1,28 @@
-PS C:\Users\RyanSilva\Downloads\Aula 5 Sistemas> & C:\Users\RyanSilva\AppData\Local\Programs\Python\Python314\python.exe "c:/Users/RyanSilva/Downloads/Aula 5 Sistemas/corrida.py"
+PS C:\Users\RyanSilva\Downloads\Aula 5 Sistemas> python corrida.py
+>> python corrida.py
+>> python corrida.py
+>> python corrida.py
+>> python corrida.py
+>> python corrida.py
+>> python corrida.py
+>> python corrida.py
+>> python corrida.py
+>> 
+Saldo esperado: 500
+Saldo obtido: 950
+Saldo esperado: 500
+Saldo obtido: 950
+Saldo esperado: 500
+Saldo obtido: 950
+Saldo esperado: 500
+Saldo obtido: 950
+Saldo esperado: 500
+Saldo obtido: 950
+Saldo esperado: 500
+Saldo obtido: 950
+Saldo esperado: 500
+Saldo obtido: 950
+Saldo esperado: 500
+Saldo obtido: 950
 Saldo esperado: 500
 Saldo obtido: 950
