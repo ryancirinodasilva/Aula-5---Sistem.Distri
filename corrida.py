@@ -2,15 +2,21 @@ import threading
 import time
 
 saldo = 1000
+lock = threading.Lock()
 
 def sacar(valor):
     global saldo
 
-    saldo_atual = saldo
-    time.sleep(0.01)
-    saldo = saldo_atual - valor
+    with lock:
+        saldo_atual = saldo
+        time.sleep(0.01)
+        saldo = saldo_atual - valor
 
 threads = []
+
+
+print("Saldo esperado: 500")
+print("Saldo obtido:", saldo)
 
 for i in range(10):
     t = threading.Thread(target=sacar, args=(50,))
@@ -19,6 +25,3 @@ for i in range(10):
 
 for t in threads:
     t.join()
-
-print("Saldo esperado: 500")
-print("Saldo obtido:", saldo)
